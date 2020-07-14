@@ -1,0 +1,402 @@
+* { margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300px; box-sizing: border-box; font-family: 'Lato', sans-serif;}
+body { background-color: #F5FBEF;}
+a { text-decoration: none;}
+url { list-style: none;}
+a:link, a:visited {
+	text-decoration: none;
+	}
+a:hover {
+	/*text-decoration: underline;*/
+  text-decoration: none;
+	color: #5FB404;
+}
+a:active {
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+a:focus {
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+#in1 {
+	margin-top: -.2em;
+}
+#in0:hover, #in1:hover, #in2:hover, #in3:hover, #in4:hover, #in5:hover, #in6:hover{
+	color: #5FB404;
+}
+#in2:active {
+	background-color: #BEF781; /*#F5FBEF;*/
+}
+/*a#us1:hover{
+	color: #5FB404;
+}*/
+.a1 {
+	position: relative;
+	font-size: 1.4em;
+	margin-bottom: 0em;
+}
+p.a2 {
+	position: absolute;
+	margin-left: -10.7em;
+	margin-top: 2.4em;
+	font-size: .4em;
+}
+
+/* Small devices (landscape phones, 320px and up)*/
+@media (min-width: 320px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  nav a img {
+    width: 100px;
+    padding: 0;
+  }
+
+  .form-inline {}
+}
+
+/* Small devices (landscape phones, 360px and up)*/
+@media (min-width: 360px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  nav a img {
+    width: 100px;
+    padding: 0;
+  }
+
+  .form-inline {}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  nav a img {
+    width: 100px;
+    padding: 0;
+  }
+
+  .form-inline {}
+
+  .navbar-nav {}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  nav a img {
+    width: 100px;
+    padding: 5px;
+  }
+
+  .form-inline {}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  nav a img {
+    width: 90px;
+    padding: 5px;
+  }
+
+  #fline {}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  * {
+  /*  margin: 0;
+    padding: 0;
+    box-sizing: border-box;*/
+  }
+
+  nav a img {
+  /*  width: 70px;
+    padding: 0px;
+    margin: -10px;*/
+  }
+
+  #eline {
+    /*background: #AAAAAA;*/
+  /*  margin: 0;*/
+  }
+
+/*  #fline {
+    margin-left: 950px;
+    margin-bottom: 0;
+    padding: 8px;
+    position: relative;
+  }
+  .navbar-nav{
+		margin-top: auto;
+
+	}*/
+/* .nav-item {
+		margin-top: 0;
+		margin-right: 0;
+    margin-left: 0;
+		margin-bottom: 1.8em;
+  }*/
+	#in1 {
+		margin-top: -.2em;
+		margin-right: 2.4em;
+	}
+	#in0:hover, #in1:hover, #in2:hover{
+		color: #5FB404;
+	}
+	#in2:active {
+		background-color: #BEF781; /*#F5FBEF;*/
+	}
+	/*.us {
+		position: absolute;
+		right: 3%;*/
+
+  /*}*/
+/*  .a0:hover{
+		color: #5FB404;
+	}*/
+
+
+  /*.search-icon {
+    -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0iIzVGNjM2OCI+PHBhdGggZD0iTTE1LjUgMTRoLS43OWwtLjI4LS4yN0E2LjQ3MSA2LjQ3MSAwIDAgMCAxNiA5LjUgNi41IDYuNSAwIDEgMCA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg==);
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 2em;
+    background-color: rgb(117, 117, 117);
+    bottom: 0;
+    left: 1.6em;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    width: 2.4em;
+  }*/
+.a1 {
+	position: relative;
+	font-size: 1.4em;
+}
+p.a2 {
+	position: absolute;
+	margin-left: -12em;
+	margin-top: 1.5em;
+	font-size: .6em;
+}
+.b4 {
+	margin-right: 13em;
+}
+.dropdown-item {
+	color: #A4A4A4;
+}
+
+/*  .microphone-icon {
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPjxwYXRoIGZpbGw9IiM0Mjg1RjQiIGQ9Ik0xMiAxNWMxLjY2IDAgMi45OS0xLjM0IDIuOTktM0wxNSA1YzAtMS42Ni0xLjM0LTMtMy0zUzkgMy4zNCA5IDV2N2MwIDEuNjYgMS4zNCAzIDMgM3oiLz48cGF0aCBmaWxsPSIjMzRBODUzIiBkPSJNMTEgMTguOTJoMlYyMmgtMnoiLz48cGF0aCBmaWxsPSIjRjRCNDAwIiBkPSJNNyAxMkg1YzAgMS45My43OCAzLjY4IDIuMDUgNC45NWwxLjQxLTEuNDFDNy41NiAxNC42MyA3IDEzLjM4IDcgMTJ6Ii8+PHBhdGggZmlsbD0iI0VBNDMzNSIgZD0iTTEyIDE3Yy0xLjM4IDAtMi42My0uNTYtMy41NC0xLjQ3bC0xLjQxIDEuNDFBNi45OSA2Ljk5IDAgMCAwIDEyLjAxIDE5YzMuODcgMCA2Ljk4LTMuMTQgNi45OC03aC0yYzAgMi43Ni0yLjIzIDUtNC45OSA1eiIvPjwvc3ZnPg==) no-repeat center;
+    background-size: 1.8em 1.8em;
+    bottom: 0;
+    cursor: pointer;
+    margin-inline-end: .2em;
+    padding: 2em 1em 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2em;
+  }
+*/
+
+	[tooltiplus] {
+	  position: relative;
+	}
+	/* START TOOLTIP STYLES */
+	[tooltiplus] {
+	position: relative; /* opinion 1 */
+	margin-top: 1em;
+	margin-left: 1.2em;
+	width:1em;
+	height: 1em;
+	/*background: #9AFE2E;*/
+
+	}
+
+	/* Applies to all tooltips */
+	[tooltiplus]::before,
+	[tooltiplus]::after {
+	text-transform: none; /* opinion 2 */
+	font-size: 1em; /* opinion 3 */
+	line-height: .1em;
+	user-select: none;
+	pointer-events: none;
+	position: absolute;
+	display: none;
+	opacity: 0;
+
+	}
+	[tooltiplus]::before {
+	content: '';
+	/*position: absolute;*/
+	/*width: 0;
+	height: 0;*/
+	margin-left: .8em;
+	margin-bottom: 1.3em;
+	border: .5em solid transparent;
+	/*border-top: .5em solid yellow;
+	border-left: .5em solid green;
+	border-right: .5em solid red;
+	border-bottom: .5em solid blue;*/ /* opinion 4 */
+	z-index: 1001; /* absurdity 1 */
+
+	}
+	[tooltiplus]::after {
+	content: attr(tooltiplus); /* magic! */
+
+	/* most of the rest of this is opinion */
+	/*font-family: Helvetica, sans-serif;*/
+	text-align: center;
+
+	/*
+		Let the content set the size of the tooltips
+		but this will also keep them from being obnoxious
+		*/
+	margin-left: .8em;
+	min-width: 3em;
+	max-width: 20em;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 1ch 1ch 1.3ch;
+	border-radius: 2ch;
+	box-shadow: 0 1em 2em -.5em rgba(0, 0, 0, 0.35);
+	background: #9AFE2E;
+	color: #4B8A08;
+	z-index: 1000; /* absurdity 2 */
+	}
+
+	/* Make the tooltips respond to hover */
+	[tooltiplus]:hover::before,
+	[tooltiplus]:hover::after {
+	display: block;
+
+	}
+
+	/* don't show empty tooltips */
+	[tooltiplus='']::before,
+	[tooltiplus='']::after {
+	display: none !important;
+
+	}
+
+	/* FLOW: UP */
+	[tooltiplus]:not([flow])::before,
+	[tooltiplus][flow^="up"]::before {
+	bottom: 100%;
+	/*border-bottom-width: 0;*/
+	border-width:.2em .3em 0;
+	/*border-top-color: #9AFE2E;*/
+	border-bottom: .65em solid #9AFE2E;
+
+	}
+	[tooltiplus]:not([flow])::after,
+	[tooltiplus][flow^="up"]::after {
+	bottom: calc(100% + -5em);
+
+	}
+	[tooltiplus]:not([flow])::before,
+	[tooltiplus]:not([flow])::after,
+	[tooltiplus][flow^="up"]::before,
+	[tooltiplus][flow^="up"]::after {
+	left: 80%;
+	bottom: -3em;
+	transform: translate(-50%, 1em);
+
+	}
+
+
+	/* KEYFRAMES */
+	@keyframes tooltips-vert {
+	to {
+		opacity: .9;
+		transform: translate(-50%, 0);
+
+	}
+	}
+
+	@keyframes tooltips-horz {
+	to {
+		opacity: .9;
+		transform: translate(0, -50%);
+
+	}
+	}
+
+	/* FX All The Things */
+	[tooltiplus]:not([flow]):hover::before,
+	[tooltiplus]:not([flow]):hover::after,
+	[tooltiplus][flow^="up"]:hover::before,
+	[tooltiplus][flow^="up"]:hover::after,
+	[tooltiplus][flow^="down"]:hover::before,
+	[tooltiplus][flow^="down"]:hover::after {
+	animation: tooltips-vert 500ms ease-out forwards;
+
+	}
+
+	[tooltiplus][flow^="left"]:hover::before,
+	[tooltiplus][flow^="left"]:hover::after,
+	[tooltiplus][flow^="right"]:hover::before,
+	[tooltiplus][flow^="right"]:hover::after {
+	animation: tooltips-horz 300ms ease-out forwards;
+
+	}
+
+
+
+
+
+
+
+
+
+
+	/* UNRELATED to tooltips */
+
+	main {
+	flex: 1 1 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	}
+
+	main div {
+	text-align: center;
+	color: #353539;
+	}
+	main span {
+	padding: .5em 1em;
+	margin: .5em;
+	display: inline-block;
+	background: #9AFE2E;
+	}
+
+
+}
