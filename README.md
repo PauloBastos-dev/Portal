@@ -1,5 +1,5 @@
 # Portal
-Neste repositório trago o uso de uma página simples com um "navbar" (menu) contendo uma figuras "Font Awesome" em sites responsivos. Tendo como base as dependências: 
+Neste repositório trago o uso de uma página simples com um "navbar" (menu) contendo figuras "Font Awesome" em sites responsivos. Tendo como base as dependências: 
 "@testing-library/jest-dom": "^4.2.4", 
 "@testing-library/react": "^9.3.2", 
 "@testing-library/user-event": "^7.1.2", 
